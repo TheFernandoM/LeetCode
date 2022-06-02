@@ -5,10 +5,10 @@
 
 ## About this repository
 
-This is a repository for my solutions to [LeetCode](https://leetcode.com/) problems. 
+This is a repository for my solutions to [LeetCode](https://leetcode.com/) problems, done in python and C#.
 Some (or all) of these solutions may be sub-optimal.
 
-Unit tests were written using [xUnit](https://xunit.net/). These tests can be run from Visual Studio.
+Unit tests for C# solutions were done using [xUnit](https://xunit.net/).
 
 ## Solutions
 
