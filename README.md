@@ -1,4 +1,4 @@
-# LeetCode
+# LeetCode solutions
 
 - [About this repository](#about-this-repository)
 - [Solutions](#solutions)
