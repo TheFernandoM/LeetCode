@@ -19,4 +19,20 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Solutions\" />
+    <None Remove="Solutions\cs\" />
+    <None Remove="Solutions\python\" />
+    <None Remove="Solutions\C#\Problem9_TwoSum\" />
+    <None Remove="Solutions\C#\Problem9_PalindromeNumber\" />
+    <None Remove="Solutions\python\Problem1_TwoSum\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Solutions\" />
+    <Folder Include="Solutions\C#\" />
+    <Folder Include="Solutions\python\" />
+    <Folder Include="Solutions\C#\Problem1_TwoSum\" />
+    <Folder Include="Solutions\C#\Problem9_PalindromeNumber\" />
+    <Folder Include="Solutions\python\Problem1_TwoSum\" />
+  </ItemGroup>
 </Project>
