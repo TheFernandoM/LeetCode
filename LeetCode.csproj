@@ -28,8 +28,6 @@
     <None Remove="Solutions\python\Problem1_TwoSum\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Solutions\" />
-    <Folder Include="Solutions\C#\" />
     <Folder Include="Solutions\python\" />
     <Folder Include="Solutions\C#\Problem1_TwoSum\" />
     <Folder Include="Solutions\C#\Problem9_PalindromeNumber\" />
