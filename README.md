@@ -2,12 +2,13 @@
 
 - [About this repository](#about-this-repository)
 - [Solutions](#solutions)
+- [Tests](#tests)
+- [To-Do](#to-do)
 
 ## About this repository
 
-This is a repository for my solutions to [LeetCode](https://leetcode.com/) problems, done in python and C#.
+This is a repository for my solutions to [LeetCode](https://leetcode.com/) problems, written in python and C#.
 Some (or all) of these solutions may be sub-optimal.
-
 Unit tests for C# solutions were done using [xUnit](https://xunit.net/).
 
 ## Solutions
@@ -18,3 +19,15 @@ Unit tests for C# solutions were done using [xUnit](https://xunit.net/).
 | #3 [Length of Longest Substring](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [C#](https://github.com/TheFernandoM/LeetCode/blob/main/Solutions/C%23/Problem3_LongestSubstring/Problem3LengthOfLongestSubstring.cs)|[link](https://github.com/TheFernandoM/LeetCode/blob/main/Tests/Problem3LengthOfLongestSubstringTest.cs)|
 | #4 [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [C#](https://github.com/TheFernandoM/LeetCode/blob/main/Solutions/C%23/Problem4_MedianOfTwoSortedArrays/Problem4MedianOfTwoSortedArrays.cs)|[link](https://github.com/TheFernandoM/LeetCode/blob/main/Tests/Problem4MedianOfTwoSortedArrays.cs)|
 | #9 [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [C#](https://github.com/TheFernandoM/LeetCode/blob/main/Solutions/C%23/Problem9_PalindromeNumber/Problem9PalindromeNumber.cs) | [link](https://github.com/TheFernandoM/LeetCode/blob/main/Tests/Problem9PalindromeNumberTest.cs)|
+| #27 [Palindrome Number](https://leetcode.com/problems/remove-element/) | [C#](https://github.com/TheFernandoM/LeetCode/blob/main/Solutions/C%23/Problem27_RemoveElement/Problem27_RemoveElement.cs) | [link](https://github.com/TheFernandoM/LeetCode/blob/main/Tests/Problem27_RemoveElementTest.cs)|
+
+## Tests
+Tests can be executed by using the command `dotnet test` from a terminal while in the repository directory (must have .NET and xUnit installed).
+They can also be executed from Visual Studio (Run -> Run Unit Tests).
+
+The tests are used to verify answers, check corner cases, and confirm that the solutions still work even after the code has been modified. Writing unit tests helps with thinking of solutions to the problems.
+
+LeetCode does not provide any test cases unless that test case fails, so 
+
+## To-Do
+* Create a script (bash or python) to automatically generate the files and folders necessary to add a new problem to the repository. It gets tedious updating this README file by hand.
