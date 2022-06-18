@@ -30,7 +30,7 @@ They can also be executed from Visual Studio (Run -> Run Unit Tests).
 
 The tests are used to verify answers, check corner cases, and confirm that the solutions still work even after the code has been modified. Writing unit tests helps with thinking of solutions to the problems.
 
-LeetCode does not provide any test cases unless the user-provided solution fails that test case, so it is up to the author to devise corner cases.
+LeetCode does not provide any test cases unless the user-provided solution fails that particular test case, so it is up to the author to devise most corner cases when they are not provided.
 
 ## To-Do
 * Create a script (bash or python) to automatically generate the files and folders necessary to add a new problem to the repository. It gets tedious updating this README file by hand.
