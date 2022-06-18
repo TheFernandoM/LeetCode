@@ -14,7 +14,7 @@ namespace LeetCode.Tests
         /// Normal test case (base case)
         /// </summary>
         [Fact]
-        public void BaseCase()
+        public void BaseCaseTest()
         {
             // Arrange & Act
             string s = "abcabcbb";
@@ -27,7 +27,7 @@ namespace LeetCode.Tests
         /// Another normal test case
         /// </summary>
         [Fact]
-        public void Test1()
+        public void BaseCaseTest2()
         {
             // Arrange & Act
             string s = "pwwkew";

@@ -1,8 +1,7 @@
 ﻿'''
-Author: Fernando Molina
-
 Brute force solution.
-Runtime is O(n ** 2) since there are two loops, and they are nested.
+Runtime complexity: O(n ** 2) since there are two loops that iterate over the entire List,
+and they are nested.
 '''
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
