@@ -20,17 +20,16 @@ namespace LeetCode.Solutions.Cs.Problem4MedianOfTwoSortedArrays
             nums1.CopyTo(mergedArray, 0);
             nums2.CopyTo(mergedArray, nums1.Length);
 
-            Array.Sort(mergedArray); // is it unethical to use built-in array sort? hah
-                                     // alternative: make my own quicksort implementation
+            Array.Sort(mergedArray); // alternative: make my own quicksort implementation. Easier to use built-in sort
 
-            if(mergedArray.Length % 2 == 0) // if even number of ints in the array
+            if(mergedArray.Length % 2 == 0) // "if there are even number of ints in the array"
             {
                 int middleIndex = (mergedArray.Length / 2) - 1; // -1 is because array indices start at 0, but Length counting starts at 1. The difference is 1.
                 double num1 = mergedArray[middleIndex];
                 double num2 = mergedArray[middleIndex + 1];
                 return (num1 + num2) / 2;
             }
-            if(mergedArray.Length % 2 == 1) // if odd number of ints in the array
+            if(mergedArray.Length % 2 == 1) // "if there are odd number of ints in the array"
             {
                 int middleIndex = (int) Math.Floor(mergedArray.Length / 2.0d);
                 return mergedArray[middleIndex]; // return the middle index

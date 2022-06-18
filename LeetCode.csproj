@@ -27,6 +27,7 @@
     <None Remove="Solutions\C#\Problem9_PalindromeNumber\" />
     <None Remove="Solutions\python\Problem1_TwoSum\" />
     <None Remove="Solutions\C#\Problem4_MedianOfTwoSortedArrays\" />
+    <None Remove="Solutions\C#\Problem27_RemoveElement\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Solutions\python\" />
@@ -34,5 +35,6 @@
     <Folder Include="Solutions\C#\Problem9_PalindromeNumber\" />
     <Folder Include="Solutions\python\Problem1_TwoSum\" />
     <Folder Include="Solutions\C#\Problem4_MedianOfTwoSortedArrays\" />
+    <Folder Include="Solutions\C#\Problem27_RemoveElement\" />
   </ItemGroup>
 </Project>
