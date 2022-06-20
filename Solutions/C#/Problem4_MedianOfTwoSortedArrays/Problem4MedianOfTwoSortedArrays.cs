@@ -8,7 +8,7 @@ namespace LeetCode.Solutions.Cs.Problem4MedianOfTwoSortedArrays
     /// 
     /// https://leetcode.com/problems/median-of-two-sorted-arrays/
     /// </summary>
-    public class Problem4MedianOfTwoSortedArraysTest
+    public class Problem4MedianOfTwoSortedArrays
     {
         /// <summary>
         /// Brute-force approach, using built-in Array.Sort() method
