@@ -29,6 +29,7 @@
     <None Remove="Solutions\C#\Problem4_MedianOfTwoSortedArrays\" />
     <None Remove="Solutions\C#\Problem27_RemoveElement\" />
     <None Remove="Solutions\C#\Problem7_ReverseInteger\" />
+    <None Remove="Solutions\C#\Problem21_MergeTwoSortedLists\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Solutions\python\" />
@@ -38,5 +39,6 @@
     <Folder Include="Solutions\C#\Problem4_MedianOfTwoSortedArrays\" />
     <Folder Include="Solutions\C#\Problem27_RemoveElement\" />
     <Folder Include="Solutions\C#\Problem7_ReverseInteger\" />
+    <Folder Include="Solutions\C#\Problem21_MergeTwoSortedLists\" />
   </ItemGroup>
 </Project>
