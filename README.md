@@ -22,6 +22,7 @@ Some (or all) of these solutions may be sub-optimal.
 | #4 [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [C#](https://github.com/TheFernandoM/LeetCode/blob/main/Solutions/C%23/Problem4_MedianOfTwoSortedArrays/Problem4_MedianOfTwoSortedArrays.cs)|[link](https://github.com/TheFernandoM/LeetCode/blob/main/Tests/Problem4_MedianOfTwoSortedArraysTest.cs)|
 | #7 [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [C#](https://github.com/TheFernandoM/LeetCode/blob/main/Solutions/C%23/Problem7_ReverseInteger/Problem7_ReverseInteger.cs)|[link](https://github.com/TheFernandoM/LeetCode/blob/main/Tests/Problem7_ReverseIntegerTest.cs)|
 | #9 [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [C#](https://github.com/TheFernandoM/LeetCode/blob/main/Solutions/C%23/Problem9_PalindromeNumber/Problem9_PalindromeNumber.cs) | [link](https://github.com/TheFernandoM/LeetCode/blob/main/Tests/Problem9_PalindromeNumberTest.cs)|
+| #21 [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [C#](https://github.com/TheFernandoM/LeetCode/blob/main/Solutions/C%23/Problem21_MergeTwoSortedLists/Problem21_MergeTwoSortedLists.cs) | [link](https://github.com/TheFernandoM/LeetCode/blob/main/Tests/Problem21_MergeTwoSortedListsTest.cs)|
 | #27 [Remove Element](https://leetcode.com/problems/remove-element/) | [C#](https://github.com/TheFernandoM/LeetCode/blob/main/Solutions/C%23/Problem27_RemoveElement/Problem27_RemoveElement.cs) | [link](https://github.com/TheFernandoM/LeetCode/blob/main/Tests/Problem27_RemoveElementTest.cs)|
 
 ## Tests
@@ -56,3 +57,5 @@ The reason for having an underscore `_` in file/folder names is to make it easie
     * As of the time of writing, there are `2310` problems on LeetCode. If the fixed padding is 4 digits, the maximum value would be `9999`. To future proof this convention of using a fixed padding, it is preferable to use 5 digits, which allows for `99 999` problems to be added. This is far than the number of problems that will be realistically in the foreseeable future (years). 
 
 * Consider creating one folder per Test, similar to how each Solution to a Problem has its own folder.
+
+* Add Continous Integration/Continuous Deployment (CD/CI) through GitHub, to automatically run tests with every change that is made to the codebase.
