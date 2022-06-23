@@ -35,7 +35,7 @@ LeetCode does not provide any test cases unless the user-provided solution fails
 
 ## Naming Conventions
 
-The reason for having an underscore `_` in file/folder names is to make it easier at a glance to read the problem number and problem name. Having one folder per problem allows for having multiple solution implementations in a grouped location. It is also done for the sake of cleanliness and having consistent structure
+The reason for having an underscore `_` in file/folder names is to make it easier at a glance to read the problem number and problem name separately. Having one folder per problem allows for having multiple solution implementations in a grouped location. It is also done for the sake of cleanliness and having consistent structure.
 
 * Folder names:
     * `<programming language>/<Problem#_ProblemName>`. Example: `C#/Problem1_TwoSum`.
@@ -51,7 +51,7 @@ The reason for having an underscore `_` in file/folder names is to make it easie
 * Create a script (bash or python) to automatically generate the files and folders necessary to add a new problem to the repository, as well as automatically update this README file. It is tedious and inefficient to update this README by hand.
 
 * Rename the files and folders with a fixed number of zeroes (0) in their name. This will sort the files/folders in numeric order
-    * Currently, the files with numbers `2*`,`2**`, `2***` (and so on...) are ordered before `3` even though they are larger numbers. Exaple: `27` is orderd before `5`, even though it is larger.
+    * Currently, the files with numbers `2*`,`2**`, `2***` (and so on...) are ordered before `3` even though they are larger numbers. Example: `27` is ordered before `5`, even though it is larger.
 
     * The fix is to add padding with a fixed number of zeroes, for example: `25` becomes `000025`. In this way, a smaller number such as `000003` will be ordered before a bigger number, for example `000027`.
     * As of the time of writing, there are `2310` problems on LeetCode. If the fixed padding is 4 digits, the maximum value would be `9999`. To future proof this convention of using a fixed padding, it is preferable to use 5 digits, which allows for `99 999` problems to be added. This is far than the number of problems that will be realistically in the foreseeable future (years). 
