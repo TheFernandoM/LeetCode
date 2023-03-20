@@ -45,7 +45,8 @@ The reason for having an underscore `_` in file/folder names is to make it easie
 
 * Namespaces:
     * Even though folders/files contains underscores `_`, namespaces do not contain dashes or underscores because of the problems doing so can cause.
-    * Namespaces are currently named by hand since by default Visual Studio tries to add an underscore in the name, and because special characters in filenames are ignored when generating a namespace (I.e. the folder `C#` in a namespace becomes `C`. This has to manually be renamed to `Cs`)
+    * **A note on special characters** (in namespace names):
+      * Namespaces are currently named by hand since by default Visual Studio tries to add an underscore in the name, and because special characters in filenames are ignored when generating a namespace (I.e. the folder `C#` in a namespace becomes `C`. This has to manually be renamed to `Cs`)
 
 ## To-Do
 * Create a script (bash or python) to automatically generate the files and folders necessary to add a new problem to the repository, as well as automatically update this README file. It is tedious and inefficient to update this README by hand.
